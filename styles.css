@@ -50,13 +50,6 @@ body {
     gap: 20px;
 }
 
-@media (max-width: 1280px) {
-    .Contenedor {
-        grid-template-columns: 2fr;
-        height: auto;
-    }
-}
-
 @media (max-width: 760px) {
     .Contenedor {
         grid-template-columns: 1fr;
