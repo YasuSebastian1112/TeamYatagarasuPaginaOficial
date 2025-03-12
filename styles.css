@@ -1,0 +1,97 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #3d3737;
+}
+  
+
+.pixelify-sans-uniquifier {
+    font-family: "Pixelify Sans", sans-serif;
+  }
+  
+
+.Titulo {
+    background-color: #242020;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #bd1939;
+    text-shadow: 3px 3px 5px #141010;
+    padding: 1rem 1rem 1rem 1rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.Subtitulo {
+    background-color: #181515;
+    margin: 1%;
+    text-align: center;
+    text-shadow: 3px 3px 5px #141010;
+    font-size: 32px;
+    color: #972d2d;
+    border-radius: 20px;
+    box-shadow: 3px 3px #141010;
+}
+
+.Contenedor {
+    background-color: #242020;
+    margin: 1%;
+    text-align: center;
+    text-shadow: 3px 3px 5px #141010;
+    font-size: 32px;
+    color: #972d2d;
+    border-radius: 20px;
+    box-shadow: 3px 3px #141010;
+    padding: 10px 10px 10px 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .Contenedor {
+        grid-template-columns: 1fr;
+    }
+}
+
+.Tarjeta {
+    background-color: #2e2a2a;
+    color: #6d6969;
+    width: 100%;
+    height: 620;
+    border-radius: 20px;
+    box-shadow: 3px 3px #141010;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.Tarjeta:hover {
+    background-color: #3a3535;
+}
+
+.Tarjeta-Imagen {
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #000000;
+}
+
+.Link {
+    background-color: #1b1b1b;
+    box-shadow: 3px 3px #000000;
+    bottom: 0%;
+    left: 50%;
+    border-radius: 20px;
+    margin: 5px 5px 5px 5px;
+    padding: 4px 4px 4px 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.Link:hover {
+    background-color: #222020;
+}
+
+.Descripcion {
+    font-size: 20px;
+}
