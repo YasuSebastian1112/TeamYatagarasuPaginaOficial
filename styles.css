@@ -24,6 +24,19 @@ body {
     border-bottom-right-radius: 30px;
 }
 
+.TablaDeEnlaces {
+    background-color: #181515;
+    margin: 1%;
+    text-align: center;
+    text-shadow: 3px 3px 5px #141010;
+    font-size: 32px;
+    color: #972d2d;
+    border-radius: 20px;
+    box-shadow: 3px 3px #141010;
+    grid-template-columns: 4fr;
+    gap: 20px;
+}
+
 .Subtitulo {
     background-color: #181515;
     margin: 1%;
@@ -50,15 +63,9 @@ body {
     gap: 20px;
 }
 
-@media only screen and (min-width: 767) {
+@media (max-width: 768px) {
     .Contenedor {
         grid-template-columns: 1fr;
-    }
-}
-
-@media only screen and (max-width: 1280px) {
-    .Contenedor {
-        grid-template-columns: 2fr;
     }
 }
 
@@ -92,12 +99,21 @@ body {
     margin: 5px 5px 5px 5px;
     padding: 4px 4px 4px 4px;
     transition: background-color 0.3s ease-in-out;
+    color: #8b2363;
+    
 }
 
 .Link:hover {
     background-color: #222020;
+    color: #972d2d;
 }
 
 .Descripcion {
     font-size: 20px;
+}
+
+.Pie {
+    background-color: #242020;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
 }
