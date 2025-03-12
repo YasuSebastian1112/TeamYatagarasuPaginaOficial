@@ -50,13 +50,17 @@ body {
     gap: 20px;
 }
 
-@media (max-width: 760px) {
+@media only screen and (min-width: 767) {
     .Contenedor {
         grid-template-columns: 1fr;
-        height: auto;
     }
 }
 
+@media only screen and (max-width: 1025px) {
+    .Contenedor {
+        grid-template-columns: 2fr;
+    }
+}
 
 .Tarjeta {
     background-color: #2e2a2a;
