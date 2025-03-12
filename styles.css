@@ -53,6 +53,7 @@ body {
 @media (max-width: 768px) {
     .Contenedor {
         grid-template-columns: 1fr;
+        height: auto;
     }
 }
 
